@@ -2,13 +2,75 @@ body {
     background-color: rgb(171, 168, 168);
 }
 
-h1 { 
+/*header */
+h1 {
     text-align: center;
     font-size: 100px;
 }
 
 img {
-    width: 50px;
+    width: 50%;
     margin-left: 25%;
     border: 6px solid black;
+}
+
+/*nav bar and links */
+
+.navbar, .footer {
+    font-weight: 900;
+    font-size: xx-large;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.footer {
+    text-align: center;
+}
+
+#home {
+    color: brown;
+}
+
+#archaeology, #cork-city-history {
+    color: #00bfff;
+}
+
+#castles, #english, #gaelic-ireland, #local-government, #world {
+    color: #e6e600;
+}
+
+#church-design, #early-modern, #industrial-heritage, #journals, #travel-guides, #spare {
+    color: purple;
+}
+
+#church-history, #cork-county, #maynooth-research-guide, #endnote {
+    color: blue;
+}
+
+#early-christian, #irish-revolution, #ryan {
+    color: rgb(239, 16, 161);
+}
+
+#famine, #monasteries {
+    color: orange;
+}
+
+#irelands-own, #mccarthy, #research-guide, #hospital {
+    color: red;
+}
+
+#irish-history, #medieval-history {
+    color: lightgreen;
+}
+
+#shelf {
+    color: black;
+}
+
+#village, #other {
+    color: green;
+}
+
+#ballinagree, #wishlist {
+    color: navy;
 }
